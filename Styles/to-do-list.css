@@ -1,0 +1,116 @@
+html {
+  font-size: 75%;
+}
+
+body {
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.main-container {
+  background-color: hsla(0, 0%, 100%, 0.814);
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: .2rem solid black;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.todo-title {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.todo-input-grid,
+.todo-grid {
+  display: grid;
+  grid-template-columns: 20.0rem 15.0rem 9.5rem;
+  column-gap: 1.0rem;
+  row-gap: 1.0rem;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 1.0rem;
+  align-items: stretch;
+}
+
+.name-input,
+.dueDate-input {
+  font-size: 1.5rem;
+  padding: .6rem;
+}
+
+.add-todo-btn,
+.delete-todo-btn {
+  background-color: rgb(10, 180, 10);
+  color: white;
+  padding: 1.0rem 1.5rem;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.delete-todo-btn {
+  background-color: rgb(208, 10, 10);
+  padding: 1.0rem;
+}
+
+.todo-value {
+  font-size: 1.4rem;
+  color: green;
+  font-weight: bold;
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+
+  .todo-input-grid {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .todo-grid {
+    grid-template-columns: 1fr 1fr 10rem;
+  }
+
+  .title-my-todo {
+    display: flex;
+  }
+
+  .todo-title {
+    font-size: 2.15rem;
+  }
+
+  .todo-value {
+    color: rgb(119, 22, 160);
+  }
+}
+
+@media (min-width: 426px) and (max-width:768px) {
+  html {
+    font-size: 70%;
+  }
+}
