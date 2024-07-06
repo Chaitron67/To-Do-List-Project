@@ -31,7 +31,7 @@ The Todo List Project is a web-based application designed for managing daily tas
 
 ## Installation Instructions
 --> The Todo List Project is hosted online. You can access and start using the application directly via this link :-
-- ["Todo List Project" Link](https://playtictactoehere.netlify.app/)
+- ["Todo List Project" Link](https://technotodolist.netlify.app/)
 
 ## Usage Instructions
 Using the Todo List Project is straightforward. Visit the provided link and start adding tasks based on their due dates. You can view all your tasks, delete completed ones, and add new tasks as needed.
